@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d01274bb20.js" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="StyleSheet.css">
+</head>
+
+<body>
+  <script src="homescript.js"></script>
+  <div class="header">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">JusBuyit.com</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            
+            <a class="nav-link" href="cart.html">Cart</a>
+            <a class="nav-link" href="products.html">Products</a>
+            <a class="nav-link" href="#">Sign In</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="header-2 mt-2">
+    <div class="container-fluid border ">
+      <ul class="d-flex justify-content-between flex-wrap">
+        <li class="d-flex flex-column text-center">
+          <img src="offer.png">
+          <a class="" href="#">Top Offers</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="groccery.png">
+          <a class="" href="#">Grocery</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="mobiler.png">
+          <a class="" href="#">Mobiles</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="fashion.png">
+          <a class="" href="#">Fashion</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="electronics.png">
+          <a class="" href="#">Electronics</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="home.png">
+          <a class="" href="#">Home</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="appliances.png">
+          <a class="" href="#">Appliances</a>
+        </li>
+        <li class="d-flex flex-column text-center">
+          <img src="toys.png">
+          <a class="" href="#">Toys & More</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="banner mt-3">
+    <div id="banner_carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="bannner1.PNG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="banner2.PNG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="banner3.PNG" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#banner_carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#banner_carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="list_header1 d-flex justify-content-between mt-3 border2">
+    <div class="ms-5">
+      <h2>Today Deals</h2>
+    </div>
+    <button type="button" class="btn btn-primary me-5 m-1">View All</button>
+  </div>
+
+  <div class="list">
+    <div class="container-fluid border2 ">
+      <div id="list1_carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <ul class="d-flex justify-content-between flex-wrap">
+              <li class="d-flex flex-column text-center w-10">
+                <img src="glass.png">
+                <a class="" href="#">
+                  <h5>Sunglasses</h5>
+                </a>
+                <div>From ₹150</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="spray.png">
+                <a class="" href="#">
+                  <h5>Body Spray</h5>
+                </a>
+                <div>Upto 30% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="watch.png">
+                <a class="" href="#">
+                  <h5>Smart watches</h5>
+                </a>
+                <div>From ₹1000</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="tshirt.png">
+                <a class="" href="#">
+                  <h5>T-Shirts</h5>
+                </a>
+                <div>Upto 20% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="mobile1.png">
+                <a class="" href="products.html" id="mobile" onclick="getMobid(this.id)">
+                  <h5>Mobiles</h5>
+                </a>
+                <div>Upto 50% OFF</div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="carousel-item">
+            <ul class="d-flex justify-content-between flex-wrap">
+              <li class="d-flex flex-column text-center w-10">
+                <img src="powerbank.png">
+                <a class="" href="#">
+                  <h5>Power Bank</h5>
+                </a>
+                <div>From ₹500</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="laptop.png">
+                <a class="" href="products.html" id="laptop" onclick="getLapid(this.id)">
+                  <h5>Laptops</h5>
+                </a>
+                <div>Upto 30% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="fridge.png">
+                <a class="" href="#">
+                  <h5>Refrigerator</h5>
+                </a>
+                <div>From ₹15000</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="headphone.png">
+                <a class="" href="#">
+                  <h5>HeadPhones</h5>
+                </a>
+                <div>Upto 20% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="ac.png">
+                <a class="" href="#">
+                  <h5>Air Conditioner</h5>
+                </a>
+                <div>Upto 50% OFF</div>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#list1_carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#list1_carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="list_header2 d-flex justify-content-between mt-3 border2">
+    <div class="ms-5">
+      <h2>Trending Products</h2>
+    </div>
+    <button type="button" class="btn btn-primary me-5 m-1">View All</button>
+  </div>
+
+  <div class="list2">
+    <div class="container-fluid border2 ">
+      <div id="list2_carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <ul class="d-flex justify-content-between flex-wrap">
+              <li class="d-flex flex-column text-center w-10">
+                <img src="powerbank.png">
+                <a class="" href="#">
+                  <h5>Power Bank</h5>
+                </a>
+                <div>From ₹500</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="laptop.png">
+                <a class="" href="#">
+                  <h5>Laptops</h5>
+                </a>
+                <div>Upto 30% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="fridge.png">
+                <a class="" href="#">
+                  <h5>Refrigerator</h5>
+                </a>
+                <div>From ₹15000</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="headphone.png">
+                <a class="" href="#">
+                  <h5>HeadPhones</h5>
+                </a>
+                <div>Upto 20% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="ac.png">
+                <a class="" href="#">
+                  <h5>Air Conditioner</h5>
+                </a>
+                <div>Upto 50% OFF</div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="carousel-item">
+            <ul class="d-flex justify-content-between flex-wrap">
+              <li class="d-flex flex-column text-center w-10">
+                <img src="glass.png">
+                <a class="" href="#">
+                  <h5>Sunglasses</h5>
+                </a>
+                <div>From ₹150</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="spray.png">
+                <a class="" href="#">
+                  <h5>Body Spray</h5>
+                </a>
+                <div>Upto 30% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="watch.png">
+                <a class="" href="#">
+                  <h5>Smart watches</h5>
+                </a>
+                <div>From ₹1000</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="tshirt.png">
+                <a class="" href="#">
+                  <h5>T-Shirts</h5>
+                </a>
+                <div>Upto 20% OFF</div>
+              </li>
+              <li class="d-flex flex-column text-center w-10">
+                <img src="wash.png">
+                <a class="" href="#">
+                  <h5>Washing Machine</h5>
+                </a>
+                <div>Upto 50% OFF</div>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#list2_carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#list2_carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer mt-2">
+    <ul class="d-flex justify-content-evenly flex-wrap pt-5">
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Contact</li>
+      <li>Support</li>
+      <li>Stores</li>
+    </ul>
+
+    <div class="social text-center pt-2">
+      <p>© 2022 JusBuyit.com</p>
+      <div class="">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+
+  .nav-link:hover {
+    font-weight: 500;
+    border-bottom: none !important;
+  }
+  .nav-link.active {
+    border-bottom: none!important;
+  }
+
+}
+
+.header {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(2, 0, 36, 1) 100%);
+}
+
+.navbar-brand {
+  color: black !important;
+  font-size: x-large;
+}
+
+.nav-link {
+  margin: 3px;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar-nav {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.header .navbar-toggler {
+  padding-right: 20px;
+  outline: none !important;
+  border: none !important;
+}
+
+.navbar .fa {
+  color: #fff !important;
+  font-size: 25px;
+}
+
+.nav-link:hover {
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-link.active {
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+}
+
+.header-2 ul {
+  list-style: none;
+}
+
+.header-2 a {
+
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.border2 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.carousel-inner {
+  width: 80% !important;
+  margin: auto;
+}
+.carousel-inner ul{
+  list-style-type: none;
+}
+
+.footer{
+  background-color: rgb(60, 60, 60);
+  color: #fff;
+  height: 200px;
+}
+.footer ul{
+  list-style-type: none;
+  font-size: 12px;
+}
+
+/* Buy.html */
+.value{
+  font-weight: 500;
+}

@@ -1,0 +1,69 @@
+const jsonObject = {
+    "products" : [
+        {
+            "id": "1",
+            "name": "BlacBerry pro 3",
+            "desc": "5G (Emerald Brown, 128 GB) (8 GB RAM)",
+            "image": "mobile1.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "2",
+            "name": "OPPO F12",
+            "desc": "(Waterfall Blue, 128 GB) (4 GB RAM)",
+            "image": "mobile3.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "3",
+            "name": "SAMSUNG NOTE 5",
+            "desc": "(Nightsky Green, 128 GB) (4 GB RAM)",
+            "image": "mobiler.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "4",
+            "name": "MI Note 10 pro",
+            "desc": "(Nightsky Green, 64 GB) (4 GB RAM)",
+            "image": "mobile4.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "5",
+            "name": "POCO M3",
+            "desc": "F12 (Sea Green, 128 GB) (4 GB RAM)",
+            "image": "mobile5.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "6",
+            "name": "iPHONE 10",
+            "desc": "5G (Deep Ocean Blue, 128 GB) (6 GB RAM)",
+            "image": "mobile6.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "7",
+            "name": "SAMSUNG A15",
+            "desc": "(Carbon Black, 32 GB) (2 GB RAM)",
+            "image": "mobile7.png",
+            "price": "15,000"
+
+        },
+        {
+            "id": "8",
+            "name": "OPPO A12",
+            "desc": "5G (Mirage Blue, 256 GB) (8 GB RAM)",
+            "image": "mobile8.png",
+            "price": "15,000"
+
+        }
+        
+    ]
+}
